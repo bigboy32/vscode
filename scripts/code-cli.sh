@@ -6,6 +6,9 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 else
 	ROOT=$(dirname $(dirname $(readlink -f $0)))
 fi
+if
+
+fi
 
 function code() {
 	cd $ROOT
